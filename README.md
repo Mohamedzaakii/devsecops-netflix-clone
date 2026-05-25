@@ -198,6 +198,4 @@ The pipeline will automatically:
 - Email: [mohamedzaki827@gmail.com](mailto:mohamedzaki827@gmail.com)
 
 ## 🙏 Acknowledgements
-
-- Original Netflix clone by [Aj7Ay](https://github.com/Aj7Ay/Netflix-clone)
 - DevSecOps project inspiration from [MrCloudBook](https://mrcloudbook.com)
