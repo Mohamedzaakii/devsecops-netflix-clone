@@ -49,22 +49,22 @@ This project demonstrates a **complete DevSecOps CI/CD pipeline** for deploying 
 
 devsecops-netflix-clone/
 │
-├── Jenkinsfile # Declarative CI/CD pipeline
-├── Dockerfile # Multi-stage build (Node 20 → Nginx)
-├── .dockerignore # Optimize Docker build context
-├── .gitignore # Exclude secrets and build artifacts
-├── .env.example # Environment variables template
+├── Jenkinsfile                                     
+├── Dockerfile                                      
+├── .dockerignore                                   
+├── .gitignore                                      
+├── .env.example                                    
 │
 ├── Kubernetes/
-│ ├── deployment.yml # K8s Deployment (2 replicas)
-│ └── service.yml # NodePort service (port 30007)
+│ ├── deployment.yml                                
+│ └── service.yml                                   
 │
-├── src/ # React/Vite application source
-├── public/ # Static assets
-├── package.json # Node.js dependencies
-├── yarn.lock # Lockfile for reproducible builds
+├── src/                                            
+├── public/                                         
+├── package.json                                    
+├── yarn.lock                                       
 │
-└── README.md # documentation
+└── README.md                                       
 ```
 ---
 ## 🚀 CI/CD Pipeline Stages (Jenkins)
